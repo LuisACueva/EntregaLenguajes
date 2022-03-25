@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'RobotoT';
+    src: url('fonts/Roboto-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'RobotoR';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-color: aqua;
+}
+
+body h1 {
+    font-size: larger;
+    font-family: 'RobotoT';
+}
+
+p {
+    font-family: 'RobotoR';
+}
